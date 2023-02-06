@@ -10,3 +10,35 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    margin-top: 100px;
+}
+ul li {
+    border: 1px solid grey;
+    list-style: none;
+    padding: 5px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+input {
+    border: none;
+    width: 100%;
+}
+.task-left {
+    border: 1px solid grey;
+    list-style: none;
+    padding: 5px;
+    font-size: small;
+    text-align: end;
+}
+
+.hidden-icon > span {
+    visibility: hidden;
+}
+/* Muestra el icono cuando el cursor pase por encima del li */
+.hidden-icon:hover > span {
+    visibility: visible;
+}
